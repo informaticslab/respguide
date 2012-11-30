@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* respguideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* respguideAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* AboutViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* RespiratorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* RespiratorView.xib */; };
+		2840D7CE1179279E00D7F93C /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* AboutView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		3724D7791325342C00C5CE34 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724D7781325342C00C5CE34 /* DataController.m */; };
+		3724D77D1325357E00C5CE34 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724D77B1325357E00C5CE34 /* AppManager.m */; };
+		3724D7801325600A00C5CE34 /* RespiratorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724D77F1325600900C5CE34 /* RespiratorClass.m */; };
+		372D5790132111D100A15331 /* respirator.png in Resources */ = {isa = PBXBuildFile; fileRef = 372D578F132111D100A15331 /* respirator.png */; };
+		372EB448132165F1001D4730 /* RespiratorClassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372EB447132165F1001D4730 /* RespiratorClassVC.xib */; };
+		37429643131ED3FD005CF533 /* 09-chat-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37429642131ED3FD005CF533 /* 09-chat-2.png */; };
+		37429645131ED452005CF533 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = 37429644131ED452005CF533 /* 53-house.png */; };
+		37429647131ED47C005CF533 /* 21-skull.png in Resources */ = {isa = PBXBuildFile; fileRef = 37429646131ED47C005CF533 /* 21-skull.png */; };
+		374296E4131EDB11005CF533 /* RespiratorClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 374296E2131EDB11005CF533 /* RespiratorClassVC.m */; };
+		37429736131EE264005CF533 /* RespiratorsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37429735131EE264005CF533 /* RespiratorsVC.m */; };
+		37429739131EE295005CF533 /* Respirator.m in Sources */ = {isa = PBXBuildFile; fileRef = 37429738131EE295005CF533 /* Respirator.m */; };
+		3742977D13202465005CF533 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3742977C13202465005CF533 /* Icon.png */; };
+		374297FD132030B9005CF533 /* RespiratorDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 374297FB132030B9005CF533 /* RespiratorDetailsVC.m */; };
+		374297FE132030B9005CF533 /* RespiratorDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374297FC132030B9005CF533 /* RespiratorDetailsVC.xib */; };
+		374AA2AE132E96860009C243 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 374AA2AD132E96860009C243 /* Default.png */; };
+		3767B1C2131ECDDB004B3744 /* RespiratorNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3767B1C1131ECDDB004B3744 /* RespiratorNavigationController.m */; };
+		3767B1CF131ED38F004B3744 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 3767B1CE131ED38F004B3744 /* 86-camera.png */; };
+		37A27B511329877F008BAC26 /* 66-microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A27B501329877F008BAC26 /* 66-microphone.png */; };
+		37A27B54132988A6008BAC26 /* FeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A27B53132988A6008BAC26 /* FeedbackVC.m */; };
+		37A27B5613298971008BAC26 /* FeedbackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A27B5513298971008BAC26 /* FeedbackView.xib */; };
+		37ADCA0D132803BC001E0ACF /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 37ADCA0B132803BC001E0ACF /* styles.css */; };
+		37ADCA0E132803BC001E0ACF /* faqs.xhtml in Resources */ = {isa = PBXBuildFile; fileRef = 37ADCA0C132803BC001E0ACF /* faqs.xhtml */; };
+		37D866DB1329193B006A3629 /* FaqsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D866DA1329193B006A3629 /* FaqsView.xib */; };
+		37D866DE13292389006A3629 /* FaqsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D866DD13292389006A3629 /* FaqsVC.m */; };
+		A650CC9915652BAD008AA96C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A650CC9715652BAD008AA96C /* LICENSE.txt */; };
+		A650CC9A15652BAD008AA96C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A650CC9815652BAD008AA96C /* README.txt */; };
+		A68E203B1578B65C0055FC4B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A6D783141578B4970035CC79 /* iTunesArtwork */; };
+		A68E203D1578B6600055FC4B /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = A6D783151578B4970035CC79 /* iTunesArtwork@2x */; };
+		A68E20481578B9F40055FC4B /* disclaimer_iphone_apps.html in Resources */ = {isa = PBXBuildFile; fileRef = A68E20421578B9F40055FC4B /* disclaimer_iphone_apps.html */; };
+		A68E20491578B9F40055FC4B /* disclaimer_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A68E20431578B9F40055FC4B /* disclaimer_iphone.png */; };
+		A68E204A1578B9F40055FC4B /* disclaimer_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A68E20441578B9F40055FC4B /* disclaimer_iphone@2x.png */; };
+		A68E204B1578B9F40055FC4B /* EulaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68E20461578B9F40055FC4B /* EulaViewController.m */; };
+		A68E204C1578B9F40055FC4B /* EulaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68E20471578B9F40055FC4B /* EulaViewController.xib */; };
+		A6D7830F1578B17E0035CC79 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D7830B1578B17E0035CC79 /* Icon-Small.png */; };
+		A6D783101578B17E0035CC79 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D7830C1578B17E0035CC79 /* Icon-Small@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* respguideAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = respguideAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* respguideAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = respguideAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Respirator Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Respirator Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* RespiratorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RespiratorView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* respguide_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = respguide_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3724D7771325342C00C5CE34 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		3724D7781325342C00C5CE34 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		3724D77A1325357E00C5CE34 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		3724D77B1325357E00C5CE34 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		3724D77C1325357E00C5CE34 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		3724D77E1325600900C5CE34 /* RespiratorClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespiratorClass.h; sourceTree = "<group>"; };
+		3724D77F1325600900C5CE34 /* RespiratorClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespiratorClass.m; sourceTree = "<group>"; };
+		372D578F132111D100A15331 /* respirator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = respirator.png; sourceTree = "<group>"; };
+		372EB447132165F1001D4730 /* RespiratorClassVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RespiratorClassVC.xib; path = Classes/RespiratorClassVC.xib; sourceTree = "<group>"; };
+		37429642131ED3FD005CF533 /* 09-chat-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-chat-2.png"; sourceTree = "<group>"; };
+		37429644131ED452005CF533 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		37429646131ED47C005CF533 /* 21-skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "21-skull.png"; sourceTree = "<group>"; };
+		374296E1131EDB11005CF533 /* RespiratorClassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespiratorClassVC.h; sourceTree = "<group>"; };
+		374296E2131EDB11005CF533 /* RespiratorClassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespiratorClassVC.m; sourceTree = "<group>"; };
+		37429734131EE264005CF533 /* RespiratorsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespiratorsVC.h; sourceTree = "<group>"; };
+		37429735131EE264005CF533 /* RespiratorsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespiratorsVC.m; sourceTree = "<group>"; };
+		37429737131EE295005CF533 /* Respirator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Respirator.h; sourceTree = "<group>"; };
+		37429738131EE295005CF533 /* Respirator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Respirator.m; sourceTree = "<group>"; };
+		3742977C13202465005CF533 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		374297FA132030B9005CF533 /* RespiratorDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespiratorDetailsVC.h; sourceTree = "<group>"; };
+		374297FB132030B9005CF533 /* RespiratorDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespiratorDetailsVC.m; sourceTree = "<group>"; };
+		374297FC132030B9005CF533 /* RespiratorDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RespiratorDetailsVC.xib; path = Classes/RespiratorDetailsVC.xib; sourceTree = "<group>"; };
+		374AA2AD132E96860009C243 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3767B1C0131ECDDB004B3744 /* RespiratorNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespiratorNavigationController.h; sourceTree = "<group>"; };
+		3767B1C1131ECDDB004B3744 /* RespiratorNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespiratorNavigationController.m; sourceTree = "<group>"; };
+		3767B1CE131ED38F004B3744 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		37A27B501329877F008BAC26 /* 66-microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "66-microphone.png"; sourceTree = "<group>"; };
+		37A27B52132988A6008BAC26 /* FeedbackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackVC.h; sourceTree = "<group>"; };
+		37A27B53132988A6008BAC26 /* FeedbackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackVC.m; sourceTree = "<group>"; };
+		37A27B5513298971008BAC26 /* FeedbackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackView.xib; sourceTree = "<group>"; };
+		37ADCA0B132803BC001E0ACF /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		37ADCA0C132803BC001E0ACF /* faqs.xhtml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = faqs.xhtml; sourceTree = "<group>"; };
+		37D866DA1329193B006A3629 /* FaqsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaqsView.xib; sourceTree = "<group>"; };
+		37D866DC13292389006A3629 /* FaqsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaqsVC.h; sourceTree = "<group>"; };
+		37D866DD13292389006A3629 /* FaqsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaqsVC.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* respguide-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "respguide-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A650CC9715652BAD008AA96C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A650CC9815652BAD008AA96C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A68E20421578B9F40055FC4B /* disclaimer_iphone_apps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disclaimer_iphone_apps.html; sourceTree = "<group>"; };
+		A68E20431578B9F40055FC4B /* disclaimer_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclaimer_iphone.png; sourceTree = "<group>"; };
+		A68E20441578B9F40055FC4B /* disclaimer_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclaimer_iphone@2x.png"; sourceTree = "<group>"; };
+		A68E20451578B9F40055FC4B /* EulaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulaViewController.h; sourceTree = "<group>"; };
+		A68E20461578B9F40055FC4B /* EulaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulaViewController.m; sourceTree = "<group>"; };
+		A68E20471578B9F40055FC4B /* EulaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EulaViewController.xib; sourceTree = "<group>"; };
+		A68E204D1578BB0D0055FC4B /* ModalViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewDelegate.h; sourceTree = "<group>"; };
+		A6D7830B1578B17E0035CC79 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A6D7830C1578B17E0035CC79 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A6D783141578B4970035CC79 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		A6D783151578B4970035CC79 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A68E204D1578BB0D0055FC4B /* ModalViewDelegate.h */,
+				A68E20421578B9F40055FC4B /* disclaimer_iphone_apps.html */,
+				A68E20431578B9F40055FC4B /* disclaimer_iphone.png */,
+				A68E20441578B9F40055FC4B /* disclaimer_iphone@2x.png */,
+				A68E20451578B9F40055FC4B /* EulaViewController.h */,
+				A68E20461578B9F40055FC4B /* EulaViewController.m */,
+				A68E20471578B9F40055FC4B /* EulaViewController.xib */,
+				3724D77A1325357E00C5CE34 /* AppManager.h */,
+				3724D77B1325357E00C5CE34 /* AppManager.m */,
+				3724D77C1325357E00C5CE34 /* Debug.h */,
+				28216C950DB411BC00E5133A /* AboutViewController.h */,
+				28216C960DB411BC00E5133A /* AboutViewController.m */,
+				1D3623240D0F684500981E51 /* respguideAppDelegate.h */,
+				1D3623250D0F684500981E51 /* respguideAppDelegate.m */,
+				3767B1C0131ECDDB004B3744 /* RespiratorNavigationController.h */,
+				3767B1C1131ECDDB004B3744 /* RespiratorNavigationController.m */,
+				374296E1131EDB11005CF533 /* RespiratorClassVC.h */,
+				374296E2131EDB11005CF533 /* RespiratorClassVC.m */,
+				37429734131EE264005CF533 /* RespiratorsVC.h */,
+				37429735131EE264005CF533 /* RespiratorsVC.m */,
+				37429737131EE295005CF533 /* Respirator.h */,
+				37429738131EE295005CF533 /* Respirator.m */,
+				374297FA132030B9005CF533 /* RespiratorDetailsVC.h */,
+				374297FB132030B9005CF533 /* RespiratorDetailsVC.m */,
+				3724D7771325342C00C5CE34 /* DataController.h */,
+				3724D7781325342C00C5CE34 /* DataController.m */,
+				3724D77E1325600900C5CE34 /* RespiratorClass.h */,
+				3724D77F1325600900C5CE34 /* RespiratorClass.m */,
+				37D866DC13292389006A3629 /* FaqsVC.h */,
+				37D866DD13292389006A3629 /* FaqsVC.m */,
+				37A27B52132988A6008BAC26 /* FeedbackVC.h */,
+				37A27B53132988A6008BAC26 /* FeedbackVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Respirator Guide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* respguide */ = {
+			isa = PBXGroup;
+			children = (
+				A650CC9715652BAD008AA96C /* LICENSE.txt */,
+				A650CC9815652BAD008AA96C /* README.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = respguide;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* respguide_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6D783141578B4970035CC79 /* iTunesArtwork */,
+				A6D783151578B4970035CC79 /* iTunesArtwork@2x */,
+				A6D7830B1578B17E0035CC79 /* Icon-Small.png */,
+				A6D7830C1578B17E0035CC79 /* Icon-Small@2x.png */,
+				374AA2AD132E96860009C243 /* Default.png */,
+				37A27B501329877F008BAC26 /* 66-microphone.png */,
+				37ADCA0B132803BC001E0ACF /* styles.css */,
+				37ADCA0C132803BC001E0ACF /* faqs.xhtml */,
+				372EB447132165F1001D4730 /* RespiratorClassVC.xib */,
+				372D578F132111D100A15331 /* respirator.png */,
+				374297FC132030B9005CF533 /* RespiratorDetailsVC.xib */,
+				3742977C13202465005CF533 /* Icon.png */,
+				37429646131ED47C005CF533 /* 21-skull.png */,
+				37429644131ED452005CF533 /* 53-house.png */,
+				37429642131ED3FD005CF533 /* 09-chat-2.png */,
+				3767B1CE131ED38F004B3744 /* 86-camera.png */,
+				2840D7CD1179279E00D7F93C /* AboutView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* RespiratorView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* respguide-Info.plist */,
+				37D866DA1329193B006A3629 /* FaqsView.xib */,
+				37A27B5513298971008BAC26 /* FeedbackView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* respguide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "respguide" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = respguide;
+			productName = respguide;
+			productReference = 1D6058910D05DD3D006BFB54 /* Respirator Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = CDC;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "respguide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* respguide */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* respguide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* RespiratorView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* AboutView.xib in Resources */,
+				3767B1CF131ED38F004B3744 /* 86-camera.png in Resources */,
+				37429643131ED3FD005CF533 /* 09-chat-2.png in Resources */,
+				37429645131ED452005CF533 /* 53-house.png in Resources */,
+				37429647131ED47C005CF533 /* 21-skull.png in Resources */,
+				3742977D13202465005CF533 /* Icon.png in Resources */,
+				374297FE132030B9005CF533 /* RespiratorDetailsVC.xib in Resources */,
+				372D5790132111D100A15331 /* respirator.png in Resources */,
+				372EB448132165F1001D4730 /* RespiratorClassVC.xib in Resources */,
+				37ADCA0D132803BC001E0ACF /* styles.css in Resources */,
+				37ADCA0E132803BC001E0ACF /* faqs.xhtml in Resources */,
+				37D866DB1329193B006A3629 /* FaqsView.xib in Resources */,
+				37A27B511329877F008BAC26 /* 66-microphone.png in Resources */,
+				37A27B5613298971008BAC26 /* FeedbackView.xib in Resources */,
+				374AA2AE132E96860009C243 /* Default.png in Resources */,
+				A650CC9915652BAD008AA96C /* LICENSE.txt in Resources */,
+				A650CC9A15652BAD008AA96C /* README.txt in Resources */,
+				A6D7830F1578B17E0035CC79 /* Icon-Small.png in Resources */,
+				A6D783101578B17E0035CC79 /* Icon-Small@2x.png in Resources */,
+				A68E203B1578B65C0055FC4B /* iTunesArtwork in Resources */,
+				A68E203D1578B6600055FC4B /* iTunesArtwork@2x in Resources */,
+				A68E20481578B9F40055FC4B /* disclaimer_iphone_apps.html in Resources */,
+				A68E20491578B9F40055FC4B /* disclaimer_iphone.png in Resources */,
+				A68E204A1578B9F40055FC4B /* disclaimer_iphone@2x.png in Resources */,
+				A68E204C1578B9F40055FC4B /* EulaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* respguideAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* AboutViewController.m in Sources */,
+				3767B1C2131ECDDB004B3744 /* RespiratorNavigationController.m in Sources */,
+				374296E4131EDB11005CF533 /* RespiratorClassVC.m in Sources */,
+				37429736131EE264005CF533 /* RespiratorsVC.m in Sources */,
+				37429739131EE295005CF533 /* Respirator.m in Sources */,
+				374297FD132030B9005CF533 /* RespiratorDetailsVC.m in Sources */,
+				3724D7791325342C00C5CE34 /* DataController.m in Sources */,
+				3724D77D1325357E00C5CE34 /* AppManager.m in Sources */,
+				3724D7801325600A00C5CE34 /* RespiratorClass.m in Sources */,
+				37D866DE13292389006A3629 /* FaqsVC.m in Sources */,
+				37A27B54132988A6008BAC26 /* FeedbackVC.m in Sources */,
+				A68E204B1578B9F40055FC4B /* EulaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Ledbetter (D5LF2BQKBD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = respguide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "respguide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Respirator Guide";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC3B1677-19F6-41D3-B15F-01B4BACC34D8";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Centers for Disease Control";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = respguide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "respguide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Respirator Guide";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56D0A03D-F54D-4131-811B-99CF5B1DEF1F";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Ledbetter (D5LF2BQKBD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Respirator Guide";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC3B1677-19F6-41D3-B15F-01B4BACC34D8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Centers for Disease Control";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "Respirator Guide";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56D0A03D-F54D-4131-811B-99CF5B1DEF1F";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "respguide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "respguide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
