@@ -2,7 +2,7 @@ NIOSH Facepiece Respirator Guide Prototype
 ===========
 The goal of this prototype has been to collaborate with the The National Institute for Occupational Safety and Health (NIOSH) to develop a moble app for the iPhone (and eventually other devices) that can serve as a resource for those who want to quickly and easily explore the database of all NIOSH-approved particulate filtering facepiece respirators.
 
-Prototype write-up is available through [PHIResearchLab.org](http://www.phiresearchlab.org/index.php?option=com_content&view=article&id=75:-niosh-facepiece-respirator-guide-for-iphone-&catid=1:prototypes&Itemid=3
+Prototype write-up is available through [PHIResearchLab.org](http://www.phiresearchlab.org/index.php?option=com_content&view=article&id=75:-niosh-facepiece-respirator-guide-for-iphone-&catid=1:prototypes&Itemid=3)
 
 ## Goals
 To share development with the public health informatics community.
